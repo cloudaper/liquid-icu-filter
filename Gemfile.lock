@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    liquid-icu-filter (0.1.0)
+      liquid (~> 4.0)
+      message_format (~> 0.0.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    camertron-eprun (1.1.1)
+    cldr-plurals-runtime-rb (1.0.1)
+    concurrent-ruby (1.1.5)
+    liquid (4.0.3)
+    message_format (0.0.5)
+      twitter_cldr (~> 4.0)
+    twitter_cldr (4.4.3)
+      camertron-eprun
+      cldr-plurals-runtime-rb (~> 1.0)
+      tzinfo
+    tzinfo (2.0.0)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  liquid-icu-filter!
+
+BUNDLED WITH
+   2.0.1
